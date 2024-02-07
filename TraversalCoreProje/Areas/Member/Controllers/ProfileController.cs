@@ -39,6 +39,7 @@ namespace TraversalCoreProje.Areas.Member.Controllers
             if (p.Image != null) 
             {
                 var resource = Directory.GetCurrentDirectory();
+                var resource2 = Directory.GetCurrentDirectory();
                 var extension = Path.GetExtension(p.Image.FileName);
                 var imagename = Guid.NewGuid() + extension;
                 var savelocation = resource + "/wwwroot/userimage" + imagename;
