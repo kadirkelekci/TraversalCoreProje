@@ -32,6 +32,7 @@ namespace TraversalCoreProje.Areas.Member.Controllers
 
             return View(userEditViewModel);
         }
+        //TEST DENEME
         [HttpPost]
         public async Task<IActionResult> Index(UserEditViewModel p)
         {
